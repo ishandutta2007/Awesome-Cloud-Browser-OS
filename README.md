@@ -42,65 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Windows 365](https://www.microsoft.com/en-us/windows-365)**  
-
-  Microsoft's Cloud PC service delivering full Windows desktops to any device via browser or Remote Desktop app. Integrated with Intune for management and Entra ID for identity.
-
-
-
-- **[Citrix Workspace](https://www.citrix.com/)**  
-
-  Enterprise workspace platform delivering virtual apps and desktops. Features **Citrix DaaS**, **HDX protocol** for optimized performance, and **zero-trust access controls**.
-
-
-
-- **[VMware Horizon](https://www.vmware.com/products/horizon.html)**  
-
-  Virtual desktop and app delivery platform. Features **Horizon Cloud on Azure**, **App Volumes**, and **Dynamic Environment Manager** for personalized workspaces.
-
-
-
-- **[Amazon WorkSpaces](https://aws.amazon.com/workspaces/)**  
-
-  Fully managed desktop-as-a-service (DaaS) on AWS. Features **Windows and Linux desktops**, **WorkSpaces Web** for browser-based access, and **WorkSpaces Core** for third-party VDI management.
-
-
-
-- **[Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)**  
-
-  Microsoft's cloud VDI service with **multi-session Windows 10/11**, **FSLogix profile management**, and **App Attach** for MSIX packaging.
-
-
-
-- **[Nutanix Frame](https://www.nutanix.com/products/frame)**  
-
-  **Browser-based DaaS** delivering Windows and Linux desktops from any cloud. **The most browser-native commercial cloud desktop**—no client installation required.
-
-
-
-- **[Parallels RAS](https://www.parallels.com/products/ras/)**  
-
-  **Application and desktop delivery platform** with browser access. Features **HTML5 client** and **native client support** for all platforms.
-
-
-
-- **[Kasm Cloud](https://kasm.com/)**  
-
-  **Managed version of Kasm Workspaces**. Streams containerized browsers, desktops, and applications via web browser with **SOC 2 Type II attestation** .
-
-
-
-- **[Shells](https://shells.com/)**  
-
-  Personal cloud desktop provider. Features **browser-based access**, **persistent storage**, and **Linux/Windows environments**.
-
-
-
-- **[Paperspace](https://www.paperspace.com/)**  
-
-  Cloud computing platform with **GPU-accelerated virtual desktops**. Features **Gradient** for ML workloads and **Core** for virtual machines. Acquired by DigitalOcean.
+| Product | Company / Parent | Company Size (Market Cap / Valuation / Revenue) | Pricing | Free Tier / Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Windows 365](https://www.microsoft.com/en-us/windows-365)** | Microsoft | ~$3.1T Market Cap / $245B+ Annual Revenue | Starts at $28.00/user/month (Business tier, 2 vCPU / 4 GB RAM / 64 GB storage) | 30-day free trial; limited to 1 Cloud PC per tenant across select trial SKUs (max 300 users for Business edition) | Microsoft's Cloud PC service delivering full Windows desktops to any device via browser or Remote Desktop app. Integrated with Intune and Entra ID. |
+| **[Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)** | Microsoft | ~$3.1T Market Cap / $245B+ Annual Revenue | $0 user access fee with existing M365/Windows enterprise license (or $5.50/user/mo app-only, $10.00/user/mo desktop access for external users) + Azure consumption (starts ~$10–$15/user/month multi-session) | 30-day Azure Free Trial with $200 in Azure credits to provision session hosts, compute, and storage | Cloud VDI service offering multi-session Windows 10/11, FSLogix profile management, and App Attach for MSIX packaging. |
+| **[Amazon WorkSpaces](https://aws.amazon.com/workspaces/)** | Amazon (AWS) | ~$2.0T Market Cap / $575B+ Annual Revenue | Starts at $21.00/user/month (AlwaysOn Linux) or $7.25/month + $0.22/hour (AutoStop metered); Windows bundles start at $28.00/month or $9.75/month + $0.30/hour | 3 billing cycles free trial; includes up to 2 Standard bundle WorkSpaces with 80 GB root / 50 GB user storage, capped at 40 hours of combined monthly usage | Fully managed desktop-as-a-service on AWS with Windows and Linux options, WorkSpaces Web browser access, and WorkSpaces Core. |
+| **[VMware Horizon](https://www.vmware.com/products/horizon.html)** | Broadcom | ~$850B Market Cap / $50B+ Annual Revenue | Starts at ~$8.25/user/month (Horizon Apps / Term subscription, billed annually) | 60-day to 90-day evaluation trial (license key provided via Broadcom portal for non-production PoC testing) | Virtual desktop and application delivery platform featuring Horizon Cloud on Azure, App Volumes, and Dynamic Environment Manager. |
+| **[Citrix Workspace](https://www.citrix.com/)** | Cloud Software Group (Vista & Evergreen) | ~$16.5B Private Acquisition Valuation / ~$3.2B Annual Revenue | Starts at ~$10.00/user/month (Citrix DaaS Standard via Cloud Marketplace, annual commitment) | 60-day trial for Citrix Cloud / DaaS capped at 25 end users | Enterprise workspace platform delivering virtual apps and desktops with HDX protocol optimization and zero-trust access controls. |
+| **[Nutanix Frame](https://www.nutanix.com/products/frame)** | Nutanix | ~$14.5B Market Cap / ~$2.1B Annual Revenue | Starts at ~$24.00–$30.00/user/month (1-year term commitment or PAYG with 5-user minimum) | 30-day free trial (up to $25 in hosted infrastructure consumption or BYO cloud account on Azure/AWS/GCP) | Browser-based DaaS delivering Windows and Linux desktops without client installation. |
+| **[Parallels RAS](https://www.parallels.com/products/ras/)** | Alludo (formerly Corel / KKR portfolio) | ~$1B+ Valuation (acquired by KKR) / ~$300M+ Annual Revenue | Starts at $99.99/concurrent user/year (~$8.33/concurrent user/month equivalent) | 30-day free trial with full feature access for up to 50 concurrent users | Application and virtual desktop delivery platform featuring HTML5 browser client and native client support across platforms. |
+| **[Paperspace](https://www.paperspace.com/)** | DigitalOcean | ~$3.5B Market Cap / ~$750M+ Annual Revenue | Starts at $0.0045/hour (CPU Core instances) or $0.45/hour (GPU instances) + storage starting at $5.00/month; Gradient ML has a free tier | Free plan on Paperspace Gradient with 5 GB persistent storage, free CPU/entry GPU, capped at 6-hour runtime sessions (Core desktops have no free tier) | Cloud computing and GPU-accelerated virtual desktops featuring Gradient for ML workflows and Core for persistent virtual machines. |
+| **[Kasm Cloud](https://kasm.com/)** | Kasm Technologies | ~$9.6M Estimated Private Valuation / ~$3M Annual Revenue | Starts at $10.00/month (Cloud Browser tier, 100 hrs/month) or $20.00/month (Cloud Desktop tier, 200 hrs/month) | Self-hosted Kasm Community Edition is free forever for up to 5 concurrent sessions; Cloud service has no free tier (entry paid plan starts at $10/mo) | Managed cloud streaming containerized browsers, desktops, and apps via web browser with SOC 2 Type II attestation. |
+| **[Shells](https://shells.com/)** | Shells.com Inc. | ~$2.4M Venture Funding Raised / Early-Stage Startup | Starts at $4.95/month (Shells Lite plan, 10 hours/month) or $14.95/month (Basic plan, unlimited usage) | 7-day money-back guarantee with test run entry tier (Lite plan at $4.95 for 10 hours); no perpetual free tier | Personal cloud desktop provider offering browser-based access, persistent storage, and Linux/Windows environments. |
 
 
 
