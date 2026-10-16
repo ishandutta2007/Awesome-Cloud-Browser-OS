@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Vibrant Accents -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      .glow-blob {
+        animation: pulseBlob 8s ease-in-out infinite alternate;
+      }
+      .orbit-particle {
+        animation: floatParticle 10s ease-in-out infinite alternate;
+      }
+      .dash-flow {
+        stroke-dasharray: 8 6;
+        animation: dashMove 20s linear infinite;
+      }
+      .badge-shimmer {
+        animation: shimmer 6s ease-in-out infinite;
+      }
+      @keyframes pulseBlob {
+        0% { transform: scale(1) translate(0px, 0px); opacity: 0.4; }
+        50% { transform: scale(1.15) translate(20px, -15px); opacity: 0.65; }
+        100% { transform: scale(1) translate(0px, 0px); opacity: 0.4; }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -200; }
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-12px) translateX(15px); }
+        100% { transform: translateY(0px) translateX(0px); }
+      }
+      @keyframes shimmer {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Dynamic Glowing Ambient Lights (Strictly Background) -->
+  <circle class="glow-blob" cx="180" cy="100" r="140" fill="url(#glowGrad1)" />
+  <circle class="glow-blob" cx="1020" cy="240" r="160" fill="url(#glowGrad2)" />
+
+  <!-- Dynamic Flow Lines (Background Network) -->
+  <g opacity="0.45" class="dash-flow">
+    <path d="M -50 120 Q 300 20 600 140 T 1250 80" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <path d="M -50 240 Q 350 340 750 200 T 1250 280" fill="none" stroke="#a855f7" stroke-width="1.5" />
+  </g>
+
+  <!-- Floating Ambient Cloud Elements -->
+  <g class="orbit-particle" opacity="0.3">
+    <circle cx="120" cy="280" r="4" fill="#38bdf8" />
+    <circle cx="280" cy="50" r="3" fill="#818cf8" />
+    <circle cx="950" cy="70" r="4" fill="#c084fc" />
+    <circle cx="1080" cy="180" r="3" fill="#38bdf8" />
+    <circle cx="600" cy="310" r="3.5" fill="#a855f7" />
+  </g>
+
+  <!-- Decorative Window Frame Illusion in Background -->
+  <rect x="150" y="28" width="900" height="304" rx="14" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <g transform="translate(170, 46)">
+    <circle cx="0" cy="0" r="5" fill="#ef4444" opacity="0.8" />
+    <circle cx="15" cy="0" r="5" fill="#eab308" opacity="0.8" />
+    <circle cx="30" cy="0" r="5" fill="#22c55e" opacity="0.8" />
+  </g>
+
+  <!-- FOREGROUND CONTENT: High Contrast, Crystal Clear -->
+  <g id="foreground-title" transform="translate(600, 130)" text-anchor="middle">
+    <!-- Super Category Tag -->
+    <g transform="translate(0, -32)" class="badge-shimmer">
+      <rect x="-160" y="-14" width="320" height="28" rx="14" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <text x="0" y="5" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">CLOUD BROWSER OS ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text y="42" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="900" letter-spacing="-0.5">
+      Awesome-Cloud-Browser-OS
+    </text>
+
+    <!-- Subtitle -->
+    <text y="86" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="0.2">
+      Curated Desktops, Cloud Workstations &amp; Web-Native Operating Systems
+    </text>
+
+    <!-- Category Pills / Highlights in Foreground -->
+    <g transform="translate(0, 134)">
+      <g transform="translate(-240, 0)">
+        <rect x="-65" y="-12" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <text x="0" y="5" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">🖥️ Web Desktops</text>
+      </g>
+      <g transform="translate(-80, 0)">
+        <rect x="-65" y="-12" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <text x="0" y="5" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">☁️ Cloud VDI &amp; DaaS</text>
+      </g>
+      <g transform="translate(80, 0)">
+        <rect x="-65" y="-12" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <text x="0" y="5" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">📦 Container Desktops</text>
+      </g>
+      <g transform="translate(240, 0)">
+        <rect x="-65" y="-12" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <text x="0" y="5" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">🛡️ Self-Hosted OS</text>
+      </g>
+    </g>
+  </g>
+</svg>

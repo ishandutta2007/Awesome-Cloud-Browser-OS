@@ -1,48 +1,58 @@
-# Awesome-Cloud-Browser-OS
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Browser OS Banner" width="100%" />
+</p>
 
-## Top Cloud Browser OS Ecosystem
+# 🌐 Awesome Cloud Browser OS
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=gihhub" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Browser-OS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Browser-OS?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Browser-OS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Browser-OS?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Browser-OS/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Browser-OS" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Browser-OS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🚀 Top Cloud Browser OS Ecosystem
 
-*Focused on Browser-Based Desktops, Cloud Workstations & Web-Native Operating Systems*  
+> **A comprehensive, community-curated directory of SaaS Desktop-as-a-Service (DaaS) platforms and open-source browser-based operating systems, Web VDI, and self-hosted cloud desktops.**
 
-**Last updated: October 2026**
+*Last updated: October 2026*
 
+This directory tracks the evolving **Cloud Browser OS**, **Web-Native Desktop**, and **Remote Workspace** ecosystem. These technologies allow anyone to launch full-fledged GUI desktop environments, application suites, terminal tools, and persistent storage directly within modern web browsers (Chrome, Firefox, Safari, Edge)—eliminating local client installation requirements.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Browser OS**. These tools enable users to access a complete desktop environment—file manager, applications, storage, and development tools—entirely from a web browser, without installing anything on the local device.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [🛠️ Sovereign & Security-Focused Implementations](#️-sovereign--security-focused-implementations)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Windows 365, Citrix, VMware Horizon, Amazon WorkSpaces, Microsoft Azure Virtual Desktop, Nutanix Frame, Parallels RAS, Kasm Workspaces, Shells, and Paperspace (the category leaders).
+## 📊 Sector Overview & Market Dynamics
 
+The global **Desktop-as-a-Service (DaaS) and Cloud Browser OS** market is estimated at **$6.2 Billion in 2026** (with adjacent Browser-as-a-Service and Enterprise Browser segments adding another **$7.4 Billion**), compounding at an annual growth rate (CAGR) of **14.5% to 18.2%** toward a projected **$24+ Billion by 2032**. 
 
+The sector exhibits **moderate-to-high market concentration** at the enterprise tier dominated by a handful of hyperscale infrastructure providers (Microsoft, Amazon AWS, Broadcom/VMware, Citrix) capitalizing on deep enterprise identity and productivity software bundles. However, the mid-market and edge layers remain **highly dynamic and fragmented**, driven by rapid innovation in browser WebAssembly (WASM), WebRTC streaming, and containerized virtualization (Kasm, Puter, Coder, DaedalOS). This creates a bifurcated landscape where hyperscalers capture enterprise compliance workloads while agile, open-source projects capture developer workstations, edge sandboxing, and sovereign privacy-first users.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, browser-based desktops, and web-native operating systems—ideal for developers, system administrators, and organizations seeking transparent, vendor-independent cloud desktop infrastructure.
+---
 
+## ☁️ SaaS / Hosted Platforms
 
+*Below is the breakdown of the top commercial Cloud Desktop and DaaS platforms, sorted in descending order by company valuation / scale.*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-| Product | Company / Parent | Company Size (Market Cap / Valuation / Revenue) | Pricing | Free Tier / Free Trial Limits | Description |
+| 🖥️ Product | 🏢 Company / Parent | 💼 Company Size (Market Cap / Valuation / Revenue) | 🏷️ Pricing | 🎁 Free Tier / Free Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[Windows 365](https://www.microsoft.com/en-us/windows-365)** | Microsoft | ~$3.1T Market Cap / $245B+ Annual Revenue | Starts at $28.00/user/month (Business tier, 2 vCPU / 4 GB RAM / 64 GB storage) | 30-day free trial; limited to 1 Cloud PC per tenant across select trial SKUs (max 300 users for Business edition) | Microsoft's Cloud PC service delivering full Windows desktops to any device via browser or Remote Desktop app. Integrated with Intune and Entra ID. |
 | **[Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)** | Microsoft | ~$3.1T Market Cap / $245B+ Annual Revenue | $0 user access fee with existing M365/Windows enterprise license (or $5.50/user/mo app-only, $10.00/user/mo desktop access for external users) + Azure consumption (starts ~$10–$15/user/month multi-session) | 30-day Azure Free Trial with $200 in Azure credits to provision session hosts, compute, and storage | Cloud VDI service offering multi-session Windows 10/11, FSLogix profile management, and App Attach for MSIX packaging. |
@@ -50,113 +60,125 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[VMware Horizon](https://www.vmware.com/products/horizon.html)** | Broadcom | ~$850B Market Cap / $50B+ Annual Revenue | Starts at ~$8.25/user/month (Horizon Apps / Term subscription, billed annually) | 60-day to 90-day evaluation trial (license key provided via Broadcom portal for non-production PoC testing) | Virtual desktop and application delivery platform featuring Horizon Cloud on Azure, App Volumes, and Dynamic Environment Manager. |
 | **[Citrix Workspace](https://www.citrix.com/)** | Cloud Software Group (Vista & Evergreen) | ~$16.5B Private Acquisition Valuation / ~$3.2B Annual Revenue | Starts at ~$10.00/user/month (Citrix DaaS Standard via Cloud Marketplace, annual commitment) | 60-day trial for Citrix Cloud / DaaS capped at 25 end users | Enterprise workspace platform delivering virtual apps and desktops with HDX protocol optimization and zero-trust access controls. |
 | **[Nutanix Frame](https://www.nutanix.com/products/frame)** | Nutanix | ~$14.5B Market Cap / ~$2.1B Annual Revenue | Starts at ~$24.00–$30.00/user/month (1-year term commitment or PAYG with 5-user minimum) | 30-day free trial (up to $25 in hosted infrastructure consumption or BYO cloud account on Azure/AWS/GCP) | Browser-based DaaS delivering Windows and Linux desktops without client installation. |
-| **[Parallels RAS](https://www.parallels.com/products/ras/)** | Alludo (formerly Corel / KKR portfolio) | ~$1B+ Valuation (acquired by KKR) / ~$300M+ Annual Revenue | Starts at $99.99/concurrent user/year (~$8.33/concurrent user/month equivalent) | 30-day free trial with full feature access for up to 50 concurrent users | Application and virtual desktop delivery platform featuring HTML5 browser client and native client support across platforms. |
 | **[Paperspace](https://www.paperspace.com/)** | DigitalOcean | ~$3.5B Market Cap / ~$750M+ Annual Revenue | Starts at $0.0045/hour (CPU Core instances) or $0.45/hour (GPU instances) + storage starting at $5.00/month; Gradient ML has a free tier | Free plan on Paperspace Gradient with 5 GB persistent storage, free CPU/entry GPU, capped at 6-hour runtime sessions (Core desktops have no free tier) | Cloud computing and GPU-accelerated virtual desktops featuring Gradient for ML workflows and Core for persistent virtual machines. |
+| **[Parallels RAS](https://www.parallels.com/products/ras/)** | Alludo (formerly Corel / KKR portfolio) | ~$1B+ Valuation (acquired by KKR) / ~$300M+ Annual Revenue | Starts at $99.99/concurrent user/year (~$8.33/concurrent user/month equivalent) | 30-day free trial with full feature access for up to 50 concurrent users | Application and virtual desktop delivery platform featuring HTML5 browser client and native client support across platforms. |
 | **[Kasm Cloud](https://kasm.com/)** | Kasm Technologies | ~$9.6M Estimated Private Valuation / ~$3M Annual Revenue | Starts at $10.00/month (Cloud Browser tier, 100 hrs/month) or $20.00/month (Cloud Desktop tier, 200 hrs/month) | Self-hosted Kasm Community Edition is free forever for up to 5 concurrent sessions; Cloud service has no free tier (entry paid plan starts at $10/mo) | Managed cloud streaming containerized browsers, desktops, and apps via web browser with SOC 2 Type II attestation. |
 | **[Shells](https://shells.com/)** | Shells.com Inc. | ~$2.4M Venture Funding Raised / Early-Stage Startup | Starts at $4.95/month (Shells Lite plan, 10 hours/month) or $14.95/month (Basic plan, unlimited usage) | 7-day money-back guarantee with test run entry tier (Lite plan at $4.95 for 10 hours); no perpetual free tier | Personal cloud desktop provider offering browser-based access, persistent storage, and Linux/Windows environments. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Open-source web desktops and cloud workstations empower developers, self-hosters, and enterprises to own their data and eliminate vendor lock-in.
 
+### ⭐ Ranked by GitHub Stars
 
+*Sorted in descending order by GitHub stargazer count:*
 
-- **[Puter](https://github.com/HeyPuter/puter)**  
+1. **[Code-Server](https://github.com/coder/code-server)** [![GitHub stars](https://img.shields.io/github/stars/coder/code-server?style=social&color=white)](https://github.com/coder/code-server/stargazers)  
+   📦 **VS Code in the browser.** Run VS Code on any remote machine and access it through any browser. Built by Coder, it provides consistent dev environments, multi-platform access, and heavy compute offloading for cloud-first developer workflows.
 
-  **The Internet OS! Free, Open-Source, and Self-Hostable** (AGPL-3.0) . **The most widely adopted open-source cloud desktop**—**40,000+ GitHub stars**, **370 community contributors**, and **400,000+ downloads** . **Puter is a cloud operating system that runs in your browser**, providing a full desktop experience without installation . **Features**: **privacy-first approach**, **seamless cloud storage with file management** (Explorer app resembles Nautilus from GNOME), **app store with handcrafted apps** (Notepad, Spreadsheet, Camera, Voice Recorder, Terminal, Code editor, Judge0 IDE), **AI functionality baked into the terminal**, **static site hosting with free subdomains** (`puter.site`) . **Puter.js** enables developers to add **AI, databases, cloud storage, and serverless workers** to web apps without API keys or backend infrastructure . **Self-hosting via one-line command**: `curl -fsSL https://puter.com/selfhost | sh` (Linux/macOS) or `irm https://puter.com/selfhost?os=windows | iex` (Windows) . **The reference implementation for browser-based cloud operating systems** .
+2. **[Puter](https://github.com/HeyPuter/puter)** [![GitHub stars](https://img.shields.io/github/stars/HeyPuter/puter?style=social&color=white)](https://github.com/HeyPuter/puter/stargazers)  
+   🌐 **The Internet OS! Free, Open-Source, and Self-Hostable** (AGPL-3.0). Puter is an advanced desktop environment running in browser tabs with privacy-first storage, an app store (code editor, terminal, office apps), terminal AI, and free subdomain hosting (`puter.site`). Includes `puter.js` SDK.
 
+3. **[Coder](https://github.com/coder/coder)** [![GitHub stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers)  
+   ☁️ **Self-hosted Cloud Development Environments (CDEs).** Provisions full Linux/Windows developer workspaces via Terraform across Kubernetes, Docker, AWS, GCP, and bare metal with Web-based IDE and terminal access.
 
+4. **[noVNC](https://github.com/novnc/noVNC)** [![GitHub stars](https://img.shields.io/github/stars/novnc/noVNC?style=social&color=white)](https://github.com/novnc/noVNC/stargazers)  
+   🖥️ **VNC client WebAssembly / JavaScript library.** Uses HTML5 Canvas and WebSockets to render remote desktop sessions in any modern browser without plugins. Core building block of many web desktop projects.
 
-- **[Slime OS](https://github.com/mulai/slimeos)**  
+5. **[Gitpod](https://github.com/gitpod-io/gitpod)** [![GitHub stars](https://img.shields.io/github/stars/gitpod-io/gitpod?style=social&color=white)](https://github.com/gitpod-io/gitpod/stargazers)  
+   ⚡ **Developer Platform for Cloud Workspaces.** Automates the provisioning of ready-to-code cloud developer environments directly from your browser.
 
-  **Open Source, Cloud-First Operating System** (open-source) . **The most hardened open-source cloud OS architecture**—**three-component design**: **The Membrane** (hardened minimal Debian Linux local layer, boots cage/Wayland → FreeRDP stream, zero local user storage), **The Brain** (cloud VMs serving Windows xRDP or Linux desktops, wrapped in **WireGuard + Authelia zero-trust security**, deployable on AWS, GCP, or any VPS), and **The App** (Android launcher APK for legacy smartphones, Phase 2) . **Quickstart**: Flash Debian 13 netinstall to USB, boot with preseed URL for automated install, then deploy the Brain via Docker Compose on any Linux host (Ubuntu 22.04 LTS recommended) . **Only public ports required are UDP 51820 (WireGuard) and TCP 443 (HTTPS)**—RDP never touches the public internet . **The most security-focused open-source cloud desktop architecture** for legacy hardware recycling.
+6. **[daedalOS](https://github.com/DustinBrett/daedalOS)** [![GitHub stars](https://img.shields.io/github/stars/DustinBrett/daedalOS?style=social&color=white)](https://github.com/DustinBrett/daedalOS/stargazers)  
+   🎨 **Desktop environment in the browser.** Written in React and TypeScript, daedalOS replicates a modern Windows-like desktop with file system emulation, media players, terminal, emulators, and rich web app integrations.
 
+7. **[Windows 11 Web](https://github.com/blueedgetechno/windows11)** [![GitHub stars](https://img.shields.io/github/stars/blueedgetechno/windows11?style=social&color=white)](https://github.com/blueedgetechno/windows11/stargazers)  
+   🪟 **Windows 11 replica made in React.** Features the Fluent Design System, interactive Start Menu, Edge browser, widgets panel, notepad, calculator, and terminal right inside a browser tab.
 
+8. **[OS.js](https://github.com/os-js/OS.js)** [![GitHub stars](https://img.shields.io/github/stars/os-js/OS.js?style=social&color=white)](https://github.com/os-js/OS.js/stargazers)  
+   🧩 **An open-source JavaScript web desktop platform.** Provides an extensible window manager, GUI toolkit, filesystem abstractions, and modular application ecosystem.
 
-- **[Kasm Workspaces Community Edition](https://kasm.com/community-edition)**  
+9. **[KasmVNC](https://github.com/kasmtech/KasmVNC)** [![GitHub stars](https://img.shields.io/github/stars/kasmtech/KasmVNC?style=social&color=white)](https://github.com/kasmtech/KasmVNC/stargazers)  
+   🚀 **Modern web-native VNC server.** Designed specifically for browser streaming with WebRTC support, VP8/VP9/AV1 video encoding, lossless image compression, and low-latency interaction.
 
-  **Open-source web-native rendering technology for digital workspaces** (open-source) . **All Workspaces images and container streaming technology available on Docker Hub and GitHub** . **Partners with Metasploit and Spiderfoot** for security tooling . **The most mature open-source containerized desktop streaming platform**—used by security professionals for covert communication channels and OSINT research .
+10. **[Docker Webtop](https://github.com/linuxserver/docker-webtop)** [![GitHub stars](https://img.shields.io/github/stars/linuxserver/docker-webtop?style=social&color=white)](https://github.com/linuxserver/docker-webtop/stargazers)  
+    🐳 **Linux desktop environments in Docker containers.** Delivers full XFCE, KDE, MATE, i3, and Openbox desktop sessions rendered over HTTP/HTTPS in the browser via KasmVNC/Rasm.
 
+11. **[Apache Guacamole Server](https://github.com/apache/guacamole-server)** [![GitHub stars](https://img.shields.io/github/stars/apache/guacamole-server?style=social&color=white)](https://github.com/apache/guacamole-server/stargazers)  
+    🛡️ **Clientless remote desktop gateway.** Translates RDP, VNC, and SSH protocols into standard web socket streams for zero-install browser access.
 
+12. **[Awesome Web Desktops](https://github.com/syxanash/awesome-web-desktops)** [![GitHub stars](https://img.shields.io/github/stars/syxanash/awesome-web-desktops?style=social&color=white)](https://github.com/syxanash/awesome-web-desktops/stargazers)  
+    📚 **Curated index of web desktop environments.** Tracks creative browser OS experiments, historical WebOS implementations, and interface experiments.
 
-- **[PC2 (Elacity)](https://github.com/Elacity/pc2.net)**  
+13. **[Kasm Workspaces Images](https://github.com/kasmtech/workspaces-images)** [![GitHub stars](https://img.shields.io/github/stars/kasmtech/workspaces-images?style=social&color=white)](https://github.com/kasmtech/workspaces-images/stargazers)  
+    🖼️ **Official Docker build files for Kasm containerized apps and desktops.** Includes specialized OSINT research containers, developer setups, and isolated web browsers.
 
-  **The Internet OS! Free, Open-Source, and Self-Hostable** (open-source) . **The most cost-effective open-source cloud OS**—**runs on Raspberry Pi for $130 one-time hardware plus $24/year electricity** vs. Google Drive ($120/year) or Dropbox ($144/year forever) . **ROI: break even at 15 months, save $96/year thereafter** . **Key differentiation**: **WASM runs on YOUR node** (not their cloud), **your keys = your access, always**, **wallet IS your identity** . **Requirements**: Node.js 20.19+, 2GB RAM minimum (4GB recommended), 10GB storage . **The most sovereign open-source cloud OS** for users who want full ownership of their digital life.
+14. **[Kasm Workspaces Core Images](https://github.com/kasmtech/workspaces-core-images)** [![GitHub stars](https://img.shields.io/github/stars/kasmtech/workspaces-core-images?style=social&color=white)](https://github.com/kasmtech/workspaces-core-images/stargazers)  
+    ⚙️ **Core base container images for streaming desktop workloads.** Used as the foundation for containerized workspace deployments.
 
+15. **[Docker RDesktop](https://github.com/linuxserver/docker-rdesktop)** [![GitHub stars](https://img.shields.io/github/stars/linuxserver/docker-rdesktop?style=social&color=white)](https://github.com/linuxserver/docker-rdesktop/stargazers)  
+    🖥️ **Lightweight containerized remote desktop client.** Web browser access to remote desktop sessions running Alpine or Ubuntu.
 
+16. **[Web Desktop Environment (shmuelhizmi)](https://github.com/shmuelhizmi/web-desktop-environment)** [![GitHub stars](https://img.shields.io/github/stars/shmuelhizmi/web-desktop-environment?style=social&color=white)](https://github.com/shmuelhizmi/web-desktop-environment/stargazers)  
+    💻 **Modern web-based cross-platform desktop UI.** Includes window management, file browser, and built-in interactive utilities.
 
-- **[Vulos OS](https://github.com/vul-os/vulos)**  
+17. **[Open Web Desktop (OWD)](https://github.com/owdproject/client)** [![GitHub stars](https://img.shields.io/github/stars/owdproject/client?style=social&color=white)](https://github.com/owdproject/client/stargazers)  
+    🛠️ **TypeScript & Nuxt.js Web Desktop Framework.** Fully extensible through themes, apps, and modules, styled with Tailwind and PrimeVue.
 
-  **Sovereign, web-native personal operating system** (open-source) . **The OS is the shell**—one React window-manager desktop is the whole surface, local or remote. **Native-first dispatch** routes every launch through five lanes: **web app** (host browser, ~zero server cost), **CPU app stream** (Xvfb + WebRTC), **GPU route** (BYO GPU peer), **compute worker** (batch), and **local-only** . **Reachability via a relay you choose**—the built-in **Vulos relay** by default, or **Pier**, an open self-hostable broker . **Backend is a single Go binary** embedding the React/JSX shell . **The most architecturally modern open-source cloud OS**—"You self-provision. Vulos does not host or run boxes for you—it is free, open-source software you run on your own hardware or a VPS you rent" .
+18. **[Vulos OS](https://github.com/vul-os/vulos)** [![GitHub stars](https://img.shields.io/github/stars/vul-os/vulos?style=social&color=white)](https://github.com/vul-os/vulos/stargazers)  
+    🔒 **Sovereign, web-native personal operating system.** Native-first dispatch routing across web apps, CPU app streams (Xvfb + WebRTC), GPU routes, and local workers with Go backend.
 
+19. **[PC2 (Elacity)](https://github.com/Elacity/pc2.net)** [![GitHub stars](https://img.shields.io/github/stars/Elacity/pc2.net?style=social&color=white)](https://github.com/Elacity/pc2.net/stargazers)  
+    🍓 **Sovereign Internet OS for Raspberry Pi.** Runs WASM apps locally on your node with cryptographic key access and decentralized wallet identity.
 
+20. **[Slime OS](https://github.com/mulai/slimeos)** [![GitHub stars](https://img.shields.io/github/stars/mulai/slimeos?style=social&color=white)](https://github.com/mulai/slimeos/stargazers)  
+    🛡️ **Cloud-First Hardened Operating System.** Three-component architecture (Membrane, Brain, App) wrapped in WireGuard + Authelia zero-trust networking.
 
-- **[Open Web Desktop (OWD)](https://github.com/owdproject/client)**  
+21. **[OS.js Web Desktop (AnEntrypoint)](https://github.com/AnEntrypoint/osjs-webdesktop)** [![GitHub stars](https://img.shields.io/github/stars/AnEntrypoint/osjs-webdesktop?style=social&color=white)](https://github.com/AnEntrypoint/osjs-webdesktop/stargazers)  
+    💾 **Production-ready OS.js distribution with polymorphic JSON state session management.**
 
-  **A framework for building web-based desktop experiences** (GPL-3) . **Built with TypeScript on Nuxt.js**. **Fully extendable through themes, apps, and modules**—bundled with **Pinia, VueUse, Mitt**, styled with **PrimeVue and Tailwind**, and **fully localizable with i18n support** . **Quick start**: `npm create owd` . **Themes available** ranging from popular OS designs (GNOME) to fully custom creations . **The most framework-friendly open-source web desktop** for developers who want to build custom cloud desktops with modern web tooling.
+---
 
+### 🛠️ Sovereign & Security-Focused Implementations
 
+- **[Gooroom Platform](https://gooroom.kr/)**: Debian-based cloud OS developed by the South Korean Ministry of Science and ICT, enforcing dual-process browser isolation for trusted and untrusted networks.
+- **[Kasm Workspaces Community Edition](https://kasm.com/community-edition)**: Web-native rendering technology streaming containerized workspaces with 5 concurrent sessions free forever for non-commercial use.
 
-- **[OS.js Web Desktop](https://github.com/AnEntrypoint/osjs-webdesktop)**  
+---
 
-  **Complete, production-ready web desktop environment built on OS.js v3** (MIT) . **Features**: **full window manager** (draggable, resizable windows), **desktop icons**, **taskbar panel**, **mobile responsive**, **comprehensive file manager** with multiple view modes, **text editor and calculator**, and **polymorphic session system** (capture and restore entire desktop state as JSON) . **Session management**: `Ctrl+Shift+S` to download current session, `Ctrl+Shift+O` to upload and restore . **Technology stack**: Hyperapp, Webpack 5, Node.js with Express, connect-loki session storage . **The most complete open-source OS.js implementation** with production-ready session persistence.
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Browser-OS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Browser-OS&type=date&legend=top-left)
 
+---
 
-- **[Gooroom Platform](https://gooroom.kr/)**  
+## 🤝 How to Contribute
 
-  **Debian-based Linux distribution designed for cloud computing** (open-source) . **The most security-focused cloud browser platform**—**separate browser processes based on access source** (trusted/untrusted browsers), **Chromium security policies** (download blocking, URL blocking), and **cloud central management** . **Developed by the Ministry of Science and ICT and the National Security Research Institute** (South Korea) . **The most government-grade open-source cloud browser**—stores all data in cloud storage and utilizes web-based application services instead of locally installed software .
+Contributions are warmly welcomed! To suggest a new Cloud OS, DaaS platform, or open-source web desktop:
 
+1. 🍴 **Fork the repository**.
+2. 📝 **Add your entry** under the appropriate category (`SaaS` or `Open-Source`).
+3. 🏷️ **Follow the formatting conventions**:
+   - For SaaS: Fill all table columns with verifiable starting price, free tier/trial limits, and parent company details.
+   - For Open-Source: Include the social white star badge linking to the repository stargazers page, maintain descending star order, and provide a clear 1–2 sentence description.
+4. 🚀 **Submit a Pull Request** with a brief summary of the project and why it belongs here.
 
+---
 
-### Additional Strong Open-Source Options
+## 💖 Support
 
+Thank you so much for exploring the **Awesome-Cloud-Browser-OS** repository! 🙏
 
+If this curated list saved you research time or inspired your cloud infrastructure setup:
+- ⭐ **Star this repository** to show your appreciation and help other developers discover it!
+- 🍴 **Fork and share** with colleagues, devops teams, and open-source communities.
+- ☕ **Buy me a coffee**: If you'd like to support ongoing curation and maintenance, visit the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-- **[Web Desktop Environment (shmuelhizmi)](https://github.com/shmuelhizmi/web-desktop-environment)** — Web-based cross-platform desktop environment (open-source) . **275 GitHub stars, 45 forks** . **Note**: OpenSSF scorecard 3.1/10—review security posture before production use .
+---
 
-- **[Open Web Desktop Themes](https://github.com/topics/owd-themes)** — Community themes for OWD including GNOME and custom designs .
+## ⚖️ Disclaimer
 
-- Community **n8n** workflows for cloud desktop session automation and resource monitoring.
-
-
-
-**Frameworks for building custom systems**: Combine **Puter** for the most feature-complete browser-based cloud OS with **Slime OS** for hardened zero-trust architecture, **Kasm Workspaces** for containerized desktop streaming, **PC2** for Raspberry Pi-based sovereign cloud, and **Vulos OS** for sovereign web-native personal computing—creating a comprehensive cloud browser OS stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud browser OS platforms handling user data and credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls and encryption.
-
-- **Open-source cloud browser OS is mature and production-ready.** Puter (40K+ stars, 400K+ downloads) provides the most feature-complete browser-based desktop with file management, app store, and static hosting . Slime OS provides hardened zero-trust architecture with WireGuard and Authelia . **These are genuine alternatives to Windows 365 and Amazon WorkSpaces.**
-
-- **The sovereignty distinction matters.** PC2's model is "your keys = your access, always" with WASM running on your node, not their cloud . Vulos OS explicitly states "You self-provision. Vulos does not host or run boxes for you" . **Cloud-hosted services provide convenience; self-hosted provides ownership.**
-
-- **Security architecture varies dramatically.** Slime OS's WireGuard + Authelia zero-trust design means "RDP never touches the public internet" . Gooroom's separate browser processes for trusted/untrusted sources provide defense-in-depth . **Open-source cloud OS platforms should be evaluated on security architecture, not just feature lists.**
-
-- **Hardware requirements are real.** Puter requires Node.js 16+ (23+ recommended), 2GB RAM minimum (4GB recommended), and 10GB disk space . PC2 runs on Raspberry Pi with 2GB RAM minimum . **Self-hosting requires appropriate infrastructure.**
-
-- Self-hosted open-source solutions require proper security hardening, network configuration, and ongoing maintenance. **Cloud desktops are access points to your data**—compromise here undermines everything else.
+- This is an independent, **community-curated index** for informational and educational purposes — not a commercial endorsement.
+- Cloud desktop platforms handling user data, session credentials, and confidential workloads must comply with data protection regulations (GDPR, CCPA, HIPAA, SOC 2) and implement rigorous zero-trust access controls.
+- **Self-hosting considerations**: Deploying open-source cloud desktops requires appropriate infrastructure, TLS configuration, port hardening, and regular patching. Ensure remote desktop streams (VNC, RDP) are encapsulated inside VPNs or WebRTC relays rather than exposed raw to the public internet.
